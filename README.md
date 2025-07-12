@@ -3,7 +3,7 @@
 
 本插件專為提升使用者體驗而設計，它能攔截並替換任何輸出的訊息，並將其轉換為更自然、更符合人格設定的「沉浸式」回覆。
 
-在美化輸出的同時，插件會將原始錯誤訊息傳遞給與其配套的 Error Monitor 插件，實現了用戶體驗與技術監控的完美分離。
+在美化輸出的同時，插件會將原始錯誤訊息傳遞給與其配套的 [Error Monitor](https://github.com/Hina-Chat/astrbot_plugin_error_monitor) 插件，實現了用戶體驗與技術監控的完美分離。
 
 ## 核心特性
 
@@ -37,7 +37,7 @@
 
 ## 協同工作
 
-本插件與 `astrbot_plugin_error_monitor` 插件共同構成了一套完整的錯誤處理與監控解決方案：
+本插件與 [Error Monitor](https://github.com/Hina-Chat/astrbot_plugin_error_monitor) 插件共同構成了一套完整的錯誤處理與監控解決方案：
 
 - **`Immersive Error`**：
 
