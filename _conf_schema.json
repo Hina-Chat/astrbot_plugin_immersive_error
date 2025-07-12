@@ -1,0 +1,29 @@
+{
+    "error_mappings_json": {
+        "type": "text",
+        "description": "錯誤回覆規則",
+        "hint": "使用 JSON 增刪或修改錯誤回覆規則，使用半角逗號分隔。",
+        "default": "[{\"keywords\":[\"速率限制\"],\"replacement_texts\":[\"（優雅地旋舞）\"]}]",
+        "editor_mode": true,
+        "editor_language": "json",
+        "editor_theme": "vs-dark"
+    },
+    "silent_replacement_mappings_json": {
+        "type": "text",
+        "description": "靜默回覆規則",
+        "hint": "使用 JSON 增刪或修改靜默回覆規則，使用半角逗號分隔。",
+        "default": "[{\"keywords\":[\"清除会话 LLM 聊天历史成功\"],\"replacement_texts\":[\"（靜靜地望著你）\"]}]",
+        "editor_mode": true,
+        "editor_language": "json",
+        "editor_theme": "vs-dark"
+    },
+    "fallback_mappings_json": {
+        "type": "text",
+        "description": "備用回覆規則",
+        "hint": "若訊息未匹配任何精確規則，則會在此處進行最後匹配。",
+        "default": "[{\"keywords\":[\"AstrBot 请求失败\"],\"replacement_texts\":[\"（走神）…唔……可以再說一次嗎？\",\"（走神）…唔……不好意思，您説什麽？\"]}]",
+        "editor_mode": true,
+        "editor_language": "json",
+        "editor_theme": "vs-dark"
+    }
+}
