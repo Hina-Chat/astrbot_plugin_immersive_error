@@ -1,4 +1,4 @@
-name: Immersive Error
+name: astrbot_plugin_immersive_error
 description: 客制化回覆插件。侦测自订的拦截词，并将其替换为与之对应的沉浸式回覆。
 version: 1.0.1
 author: Magstic, Gemini 2.5 Pro
