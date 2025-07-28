@@ -25,5 +25,23 @@
         "editor_mode": true,
         "editor_language": "json",
         "editor_theme": "vs-dark"
+    },
+    "delay_enabled": {
+        "type": "bool",
+        "description": "訊息延遲送出",
+        "hint": "模擬 LLM 思考過程，使回覆更自然。",
+        "default": false
+    },
+    "delay_min_seconds": {
+        "type": "float",
+        "description": "最小延遲（秒）",
+        "hint": "延遲送出的下限。",
+        "default": 5.0
+    },
+    "delay_max_seconds": {
+        "type": "float",
+        "description": "最大延遲（秒）",
+        "hint": "延遲送出的上限。",
+        "default": 10.0
     }
 }
